@@ -1,0 +1,262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb53914fee34a469f855976a858e466, type: 3}
+  m_Name: WindowFactoryConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _windowsMap
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Infrastructure.Services.Window.Core.WindowID,
+        Assembly-CSharp],[UnityEngine.AddressableAssets.AssetReferenceGameObject,
+        Unity.Addressables]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Infrastructure.Services.Window.Core.WindowID,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 2|UnityEngine.AddressableAssets.AssetReferenceGameObject, Unity.Addressables
+    - Name: m_AssetGUID
+      Entry: 1
+      Data: d9683eb2e043792448f2d742b7144d26
+    - Name: m_SubObjectName
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectType
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectGUID
+      Entry: 6
+      Data: 
+    - Name: m_EditorAssetChanged
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 3|UnityEngine.AddressableAssets.AssetReferenceGameObject, Unity.Addressables
+    - Name: m_AssetGUID
+      Entry: 1
+      Data: 807fe39831f88364cb32c47af986a5f6
+    - Name: m_SubObjectName
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectType
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectGUID
+      Entry: 6
+      Data: 
+    - Name: m_EditorAssetChanged
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 4|UnityEngine.AddressableAssets.AssetReferenceGameObject, Unity.Addressables
+    - Name: m_AssetGUID
+      Entry: 1
+      Data: c8d3a329cf49ea1478c363c5de9f3d4f
+    - Name: m_SubObjectName
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectType
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectGUID
+      Entry: 6
+      Data: 
+    - Name: m_EditorAssetChanged
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 5|UnityEngine.AddressableAssets.AssetReferenceGameObject, Unity.Addressables
+    - Name: m_AssetGUID
+      Entry: 1
+      Data: f58594695b3bfe3459ed1fcb9c931960
+    - Name: m_SubObjectName
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectType
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectGUID
+      Entry: 6
+      Data: 
+    - Name: m_EditorAssetChanged
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 6|UnityEngine.AddressableAssets.AssetReferenceGameObject, Unity.Addressables
+    - Name: m_AssetGUID
+      Entry: 1
+      Data: c7d987713c1822940a12f15dc63ef273
+    - Name: m_SubObjectName
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectType
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectGUID
+      Entry: 6
+      Data: 
+    - Name: m_EditorAssetChanged
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 7|UnityEngine.AddressableAssets.AssetReferenceGameObject, Unity.Addressables
+    - Name: m_AssetGUID
+      Entry: 1
+      Data: 528aadbd64b67de459c32b0a2d3af7d9
+    - Name: m_SubObjectName
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectType
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectGUID
+      Entry: 6
+      Data: 
+    - Name: m_EditorAssetChanged
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 8|UnityEngine.AddressableAssets.AssetReferenceGameObject, Unity.Addressables
+    - Name: m_AssetGUID
+      Entry: 1
+      Data: 766c474bca7b47f44b6aefd5734cca3b
+    - Name: m_SubObjectName
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectType
+      Entry: 6
+      Data: 
+    - Name: m_SubObjectGUID
+      Entry: 1
+      Data: 
+    - Name: m_EditorAssetChanged
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _containerPrefab: {fileID: 4681740333889913048, guid: 00540768c8fe66a4b9518fbed775d683, type: 3}
+  _inputBlockerPrefab: {fileID: 215603093163347098, guid: 57cf6a30b097cae4c91ac99f6fadf385, type: 3}
