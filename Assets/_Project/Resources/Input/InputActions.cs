@@ -891,6 +891,176 @@ namespace UnityEngine.InputSystem
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Flight"",
+            ""id"": ""a3e8c6cd-3d89-4ce1-a40b-a3b7503bbd57"",
+            ""actions"": [
+                {
+                    ""name"": ""PitchRoll"",
+                    ""type"": ""Value"",
+                    ""id"": ""39ccab70-d211-43d6-a74a-9b76a5dafbf2"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Yaw"",
+                    ""type"": ""Value"",
+                    ""id"": ""a9766210-66e4-475b-acbb-b340d2b74a3b"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""ThrottleUp"",
+                    ""type"": ""Button"",
+                    ""id"": ""97021fee-6f9c-4f06-91b1-21890052d8a8"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ThrottleDown"",
+                    ""type"": ""Button"",
+                    ""id"": ""b2728277-2385-46e4-8e09-f793be0a9836"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Brake"",
+                    ""type"": ""Button"",
+                    ""id"": ""1f3f425f-90c6-4625-9a8c-1f8252692009"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""FlapsUp"",
+                    ""type"": ""Button"",
+                    ""id"": ""a729e924-f673-445b-aba7-f7307d87d228"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""FlapsDown"",
+                    ""type"": ""Button"",
+                    ""id"": ""75cd426b-b473-4bb7-b3a6-68b03e5f64b4"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""a3c4c2e9-f321-4ac2-b3a0-76202e7e5bfa"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PitchRoll"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""a2146ee0-7334-40a2-96c0-f132f8d4cd45"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Yaw"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""7ab0ab63-aadf-41b4-9b2f-f6de96f585bc"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Yaw"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""f4cecd95-3207-4d51-8af3-ac677133232e"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Yaw"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""43c6ee14-f93e-48dc-8d2f-cb6606eee971"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ThrottleUp"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""495f2771-23f6-409d-b64d-1ee4cf8f6f5b"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ThrottleDown"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e9f6904e-9562-4f46-a89a-9fe97cbd6987"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Brake"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3ed20922-75aa-4eae-9bb3-2547a21dae4b"",
+                    ""path"": ""<Gamepad>/dpad/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FlapsUp"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e7862566-525e-42ff-ab51-bc838de3f792"",
+                    ""path"": ""<Gamepad>/dpad/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FlapsDown"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -974,12 +1144,22 @@ namespace UnityEngine.InputSystem
             m_UI_RightClick = m_UI.FindAction("RightClick", throwIfNotFound: true);
             m_UI_TrackedDevicePosition = m_UI.FindAction("TrackedDevicePosition", throwIfNotFound: true);
             m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
+            // Flight
+            m_Flight = asset.FindActionMap("Flight", throwIfNotFound: true);
+            m_Flight_PitchRoll = m_Flight.FindAction("PitchRoll", throwIfNotFound: true);
+            m_Flight_Yaw = m_Flight.FindAction("Yaw", throwIfNotFound: true);
+            m_Flight_ThrottleUp = m_Flight.FindAction("ThrottleUp", throwIfNotFound: true);
+            m_Flight_ThrottleDown = m_Flight.FindAction("ThrottleDown", throwIfNotFound: true);
+            m_Flight_Brake = m_Flight.FindAction("Brake", throwIfNotFound: true);
+            m_Flight_FlapsUp = m_Flight.FindAction("FlapsUp", throwIfNotFound: true);
+            m_Flight_FlapsDown = m_Flight.FindAction("FlapsDown", throwIfNotFound: true);
         }
 
         ~@InputActions()
         {
             UnityEngine.Debug.Assert(!m_Gameplay.enabled, "This will cause a leak and performance issues, InputActions.Gameplay.Disable() has not been called.");
             UnityEngine.Debug.Assert(!m_UI.enabled, "This will cause a leak and performance issues, InputActions.UI.Disable() has not been called.");
+            UnityEngine.Debug.Assert(!m_Flight.enabled, "This will cause a leak and performance issues, InputActions.Flight.Disable() has not been called.");
         }
 
         /// <summary>
@@ -1375,6 +1555,168 @@ namespace UnityEngine.InputSystem
         /// Provides a new <see cref="UIActions" /> instance referencing this action map.
         /// </summary>
         public UIActions @UI => new UIActions(this);
+
+        // Flight
+        private readonly InputActionMap m_Flight;
+        private List<IFlightActions> m_FlightActionsCallbackInterfaces = new List<IFlightActions>();
+        private readonly InputAction m_Flight_PitchRoll;
+        private readonly InputAction m_Flight_Yaw;
+        private readonly InputAction m_Flight_ThrottleUp;
+        private readonly InputAction m_Flight_ThrottleDown;
+        private readonly InputAction m_Flight_Brake;
+        private readonly InputAction m_Flight_FlapsUp;
+        private readonly InputAction m_Flight_FlapsDown;
+        /// <summary>
+        /// Provides access to input actions defined in input action map "Flight".
+        /// </summary>
+        public struct FlightActions
+        {
+            private @InputActions m_Wrapper;
+
+            /// <summary>
+            /// Construct a new instance of the input action map wrapper class.
+            /// </summary>
+            public FlightActions(@InputActions wrapper) { m_Wrapper = wrapper; }
+            /// <summary>
+            /// Provides access to the underlying input action "Flight/PitchRoll".
+            /// </summary>
+            public InputAction @PitchRoll => m_Wrapper.m_Flight_PitchRoll;
+            /// <summary>
+            /// Provides access to the underlying input action "Flight/Yaw".
+            /// </summary>
+            public InputAction @Yaw => m_Wrapper.m_Flight_Yaw;
+            /// <summary>
+            /// Provides access to the underlying input action "Flight/ThrottleUp".
+            /// </summary>
+            public InputAction @ThrottleUp => m_Wrapper.m_Flight_ThrottleUp;
+            /// <summary>
+            /// Provides access to the underlying input action "Flight/ThrottleDown".
+            /// </summary>
+            public InputAction @ThrottleDown => m_Wrapper.m_Flight_ThrottleDown;
+            /// <summary>
+            /// Provides access to the underlying input action "Flight/Brake".
+            /// </summary>
+            public InputAction @Brake => m_Wrapper.m_Flight_Brake;
+            /// <summary>
+            /// Provides access to the underlying input action "Flight/FlapsUp".
+            /// </summary>
+            public InputAction @FlapsUp => m_Wrapper.m_Flight_FlapsUp;
+            /// <summary>
+            /// Provides access to the underlying input action "Flight/FlapsDown".
+            /// </summary>
+            public InputAction @FlapsDown => m_Wrapper.m_Flight_FlapsDown;
+            /// <summary>
+            /// Provides access to the underlying input action map instance.
+            /// </summary>
+            public InputActionMap Get() { return m_Wrapper.m_Flight; }
+            /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
+            public void Enable() { Get().Enable(); }
+            /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
+            public void Disable() { Get().Disable(); }
+            /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
+            public bool enabled => Get().enabled;
+            /// <summary>
+            /// Implicitly converts an <see ref="FlightActions" /> to an <see ref="InputActionMap" /> instance.
+            /// </summary>
+            public static implicit operator InputActionMap(FlightActions set) { return set.Get(); }
+            /// <summary>
+            /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+            /// </summary>
+            /// <param name="instance">Callback instance.</param>
+            /// <remarks>
+            /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
+            /// </remarks>
+            /// <seealso cref="FlightActions" />
+            public void AddCallbacks(IFlightActions instance)
+            {
+                if (instance == null || m_Wrapper.m_FlightActionsCallbackInterfaces.Contains(instance)) return;
+                m_Wrapper.m_FlightActionsCallbackInterfaces.Add(instance);
+                @PitchRoll.started += instance.OnPitchRoll;
+                @PitchRoll.performed += instance.OnPitchRoll;
+                @PitchRoll.canceled += instance.OnPitchRoll;
+                @Yaw.started += instance.OnYaw;
+                @Yaw.performed += instance.OnYaw;
+                @Yaw.canceled += instance.OnYaw;
+                @ThrottleUp.started += instance.OnThrottleUp;
+                @ThrottleUp.performed += instance.OnThrottleUp;
+                @ThrottleUp.canceled += instance.OnThrottleUp;
+                @ThrottleDown.started += instance.OnThrottleDown;
+                @ThrottleDown.performed += instance.OnThrottleDown;
+                @ThrottleDown.canceled += instance.OnThrottleDown;
+                @Brake.started += instance.OnBrake;
+                @Brake.performed += instance.OnBrake;
+                @Brake.canceled += instance.OnBrake;
+                @FlapsUp.started += instance.OnFlapsUp;
+                @FlapsUp.performed += instance.OnFlapsUp;
+                @FlapsUp.canceled += instance.OnFlapsUp;
+                @FlapsDown.started += instance.OnFlapsDown;
+                @FlapsDown.performed += instance.OnFlapsDown;
+                @FlapsDown.canceled += instance.OnFlapsDown;
+            }
+
+            /// <summary>
+            /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+            /// </summary>
+            /// <remarks>
+            /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
+            /// </remarks>
+            /// <seealso cref="FlightActions" />
+            private void UnregisterCallbacks(IFlightActions instance)
+            {
+                @PitchRoll.started -= instance.OnPitchRoll;
+                @PitchRoll.performed -= instance.OnPitchRoll;
+                @PitchRoll.canceled -= instance.OnPitchRoll;
+                @Yaw.started -= instance.OnYaw;
+                @Yaw.performed -= instance.OnYaw;
+                @Yaw.canceled -= instance.OnYaw;
+                @ThrottleUp.started -= instance.OnThrottleUp;
+                @ThrottleUp.performed -= instance.OnThrottleUp;
+                @ThrottleUp.canceled -= instance.OnThrottleUp;
+                @ThrottleDown.started -= instance.OnThrottleDown;
+                @ThrottleDown.performed -= instance.OnThrottleDown;
+                @ThrottleDown.canceled -= instance.OnThrottleDown;
+                @Brake.started -= instance.OnBrake;
+                @Brake.performed -= instance.OnBrake;
+                @Brake.canceled -= instance.OnBrake;
+                @FlapsUp.started -= instance.OnFlapsUp;
+                @FlapsUp.performed -= instance.OnFlapsUp;
+                @FlapsUp.canceled -= instance.OnFlapsUp;
+                @FlapsDown.started -= instance.OnFlapsDown;
+                @FlapsDown.performed -= instance.OnFlapsDown;
+                @FlapsDown.canceled -= instance.OnFlapsDown;
+            }
+
+            /// <summary>
+            /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="FlightActions.UnregisterCallbacks(IFlightActions)" />.
+            /// </summary>
+            /// <seealso cref="FlightActions.UnregisterCallbacks(IFlightActions)" />
+            public void RemoveCallbacks(IFlightActions instance)
+            {
+                if (m_Wrapper.m_FlightActionsCallbackInterfaces.Remove(instance))
+                    UnregisterCallbacks(instance);
+            }
+
+            /// <summary>
+            /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
+            /// </summary>
+            /// <remarks>
+            /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
+            /// </remarks>
+            /// <seealso cref="FlightActions.AddCallbacks(IFlightActions)" />
+            /// <seealso cref="FlightActions.RemoveCallbacks(IFlightActions)" />
+            /// <seealso cref="FlightActions.UnregisterCallbacks(IFlightActions)" />
+            public void SetCallbacks(IFlightActions instance)
+            {
+                foreach (var item in m_Wrapper.m_FlightActionsCallbackInterfaces)
+                    UnregisterCallbacks(item);
+                m_Wrapper.m_FlightActionsCallbackInterfaces.Clear();
+                AddCallbacks(instance);
+            }
+        }
+        /// <summary>
+        /// Provides a new <see cref="FlightActions" /> instance referencing this action map.
+        /// </summary>
+        public FlightActions @Flight => new FlightActions(this);
         private int m_KeyboardMouseSchemeIndex = -1;
         /// <summary>
         /// Provides access to the input control scheme.
@@ -1553,6 +1895,63 @@ namespace UnityEngine.InputSystem
             /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
             /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
             void OnTrackedDeviceOrientation(InputAction.CallbackContext context);
+        }
+        /// <summary>
+        /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Flight" which allows adding and removing callbacks.
+        /// </summary>
+        /// <seealso cref="FlightActions.AddCallbacks(IFlightActions)" />
+        /// <seealso cref="FlightActions.RemoveCallbacks(IFlightActions)" />
+        public interface IFlightActions
+        {
+            /// <summary>
+            /// Method invoked when associated input action "PitchRoll" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnPitchRoll(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "Yaw" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnYaw(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "ThrottleUp" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnThrottleUp(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "ThrottleDown" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnThrottleDown(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "Brake" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnBrake(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "FlapsUp" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnFlapsUp(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "FlapsDown" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnFlapsDown(InputAction.CallbackContext context);
         }
     }
 }

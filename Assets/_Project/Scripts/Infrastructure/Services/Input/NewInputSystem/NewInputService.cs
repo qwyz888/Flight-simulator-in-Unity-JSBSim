@@ -18,6 +18,7 @@ namespace Infrastructure.Services.Input.NewInputSystem
 
         public IGameplayInputActions Gameplay { get; private set; }
         public IUIInputActions UI { get; private set; }
+        public IFlightInputActions Flight { get; private set; }
 
         public void Initialize()
         {
@@ -25,6 +26,7 @@ namespace Infrastructure.Services.Input.NewInputSystem
             _inputActions.Enable();
             Gameplay = new GameplayInputActions(_inputActions.Gameplay);
             UI = new UIInputActions(_inputActions.UI);
+            Flight = new FlightInputActions(_inputActions.Flight);
 
             SetActive(false);
         }
@@ -34,6 +36,7 @@ namespace Infrastructure.Services.Input.NewInputSystem
             _uiInputModule.enabled = active;
             Gameplay.SetActive(active);
             UI.SetActive(active);
+            Flight.SetActive(active);
         }
     }
 }

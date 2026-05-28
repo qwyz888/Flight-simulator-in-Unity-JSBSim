@@ -25,7 +25,7 @@ namespace Gameplay.StateMachine.States
             _logService.Log("Gameplay.SetupUIState.Enter");
 
             _windowService
-                .CreateWindow(WindowID.GameplayInitialWindow)
+                .CreateWindow(WindowID.GameplayHUD)
                 .ContinueWith(window =>
                 {
                     window.Show();

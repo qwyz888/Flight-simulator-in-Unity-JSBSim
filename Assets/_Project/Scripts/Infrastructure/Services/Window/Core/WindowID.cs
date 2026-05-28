@@ -9,6 +9,7 @@
         LoadingScreen = 3,
         MenuInitialWindow = 4,
         GameplayInitialWindow = 5,
-        PauseWindow = 6
+        PauseWindow = 6,
+        GameplayHUD = 7,
     }
 }

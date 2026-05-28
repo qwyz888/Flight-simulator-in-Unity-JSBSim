@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using DebuggerOptions;
+using FlightSimulation;
 using Infrastructure.Configs;
 using Infrastructure.Coroutines.Runner;
 using Infrastructure.Data.Models.Persistent;
@@ -115,6 +116,8 @@ namespace Infrastructure.VContainer.Scopes
             DontDestroyOnLoad(eventSystemInstance);
             InputSystemUIInputModule uiInputModule = eventSystemInstance.GetComponent<InputSystemUIInputModule>();
             builder.Register<NewInputService>(Lifetime.Singleton).AsImplementedInterfaces().WithParameter(uiInputModule);
+
+            builder.Register<FlightInputProvider>(Lifetime.Singleton);
         }
 
         private void RegisterWindowService(IContainerBuilder builder)
