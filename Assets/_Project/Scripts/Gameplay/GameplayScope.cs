@@ -1,4 +1,5 @@
-﻿using Gameplay.StateMachine;
+﻿using FlightSimulation;
+using Gameplay.StateMachine;
 using Gameplay.StateMachine.States;
 using Gameplay.StateMachine.States.Core;
 using Infrastructure.Services.Window.Core;
@@ -23,6 +24,7 @@ namespace Gameplay
             RegisterStateMachine(builder);
             RegisterServices(builder);
             MakeInitializable(builder);
+            builder.RegisterComponentInHierarchy<JSBSimManager>() .AsSelf();
         }
 
         public void Initialize() => Container.Resolve<IStateMachine<IGameplayState>>().Enter<BootstrapState>();

@@ -10,18 +10,17 @@ namespace FlightSimulation
         private JSBSimManager _jsbsim;
 
         [Inject]
-        public void Construct(FlightInputProvider flightInput)
+        public void Construct(FlightInputProvider flightInput, JSBSimManager jsbsim)
         {
             _input = flightInput;
+            _jsbsim = jsbsim;
         }
 
         private void Start()
         {
-            _jsbsim = FindObjectOfType<JSBSimManager>();
-
             if (_jsbsim == null)
             {
-                Debug.LogError("JSBSimManager not found!");
+                Debug.LogError("JSBSimManager was not injected!");
                 enabled = false;
                 return;
             }
