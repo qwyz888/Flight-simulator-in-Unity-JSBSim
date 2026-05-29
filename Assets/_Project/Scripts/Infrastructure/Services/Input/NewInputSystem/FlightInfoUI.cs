@@ -60,8 +60,8 @@ namespace FlightSimulation
             yawText.text =
                 $"YAW: {(state.orientation.yaw * Mathf.Rad2Deg):F1}°";
 
-            //engineText.text =
-            //    $"RPM: {state.engine.rpm:F0}";
+            engineText.text =
+                $"RPM: {state.engine.rpm:F0}";
         }
     }
 }

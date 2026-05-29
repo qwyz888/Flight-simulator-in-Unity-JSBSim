@@ -176,6 +176,10 @@ class JSBSimBridge:
                 "v": float(self.fdm['velocities/v-fps']),
                 "w": float(self.fdm['velocities/w-fps']),
                 "airspeed": float(self.fdm['velocities/vc-kts'])
+            },
+
+            "engine": {
+                "rpm": float(self.fdm['propulsion/engine[0]/propeller-rpm'])
             }
         }
 
