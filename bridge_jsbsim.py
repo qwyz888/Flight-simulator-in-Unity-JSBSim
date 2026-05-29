@@ -90,7 +90,7 @@ class JSBSimBridge:
 
         # Example initial conditions (slightly above ground, 0 KIAS, facing north)
         self.fdm.set_property_value("ic/h-sl-ft", 50.0)
-        self.fdm.set_property_value("ic/psi-true-deg", 0.0)
+        self.fdm.set_property_value("ic/psi-true-deg", 90.0)
         self.fdm.set_property_value("ic/lat-gc-deg", 37.618805)  # near KSFO for fun
         self.fdm.set_property_value("ic/long-gc-deg", -122.375416)
 

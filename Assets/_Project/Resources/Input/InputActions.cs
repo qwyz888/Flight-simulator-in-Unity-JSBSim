@@ -984,7 +984,7 @@ namespace UnityEngine.InputSystem
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""negative"",
+                    ""name"": ""Negative"",
                     ""id"": ""7ab0ab63-aadf-41b4-9b2f-f6de96f585bc"",
                     ""path"": ""<Gamepad>/leftTrigger"",
                     ""interactions"": """",
@@ -995,7 +995,7 @@ namespace UnityEngine.InputSystem
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""positive"",
+                    ""name"": ""Positive"",
                     ""id"": ""f4cecd95-3207-4d51-8af3-ac677133232e"",
                     ""path"": ""<Gamepad>/rightTrigger"",
                     ""interactions"": """",

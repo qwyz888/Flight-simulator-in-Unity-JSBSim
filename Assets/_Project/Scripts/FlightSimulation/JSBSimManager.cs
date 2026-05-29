@@ -298,7 +298,7 @@ namespace FlightSimulation
             float yawDeg = o.yaw * Mathf.Rad2Deg;
 
             // Try this conversion:
-            return Quaternion.Euler(pitchDeg, yawDeg, -rollDeg);
+            return Quaternion.Euler(-pitchDeg, yawDeg, -rollDeg);
         }
 
         void OnApplicationQuit()

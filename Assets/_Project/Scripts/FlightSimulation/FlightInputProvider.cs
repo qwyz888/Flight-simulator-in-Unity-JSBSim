@@ -52,7 +52,7 @@ namespace FlightSimulation
 
                 Pitch = pitchRoll.y,
 
-                Yaw = yaw,
+                Yaw = -yaw,
 
                 Throttle = _throttle,
 
