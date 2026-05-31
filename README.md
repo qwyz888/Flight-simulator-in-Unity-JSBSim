@@ -1,4 +1,4 @@
-Flight simulator (Unity) — JSBSim bridge
+Flight simulator in Unity using JSBSim for flight physics
 
 UA
 ====
